@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.9.0](https://github.com/CodeWithCJ/SparkyFitness/compare/v1.8.0...v1.9.0) (2026-10-09)
+
+
+### Features
+
+* **mobile:** add Lock Screen widgets and controls for calories, water, fasting and food- [#133](https://github.com/CodeWithCJ/SparkyFitness/issues/133) ([667598f](https://github.com/CodeWithCJ/SparkyFitness/commit/667598f014f99c97fb920df857ebee5324f32d73))
+* **mobile:** supplement barcode scanning ([db82271](https://github.com/CodeWithCJ/SparkyFitness/commit/db82271ffb21a25af1b1444ab06657e81d3a3700))
+
+
+### Bug Fixes
+
+* bound a supplement barcode lookup to one deadline ([7a28337](https://github.com/CodeWithCJ/SparkyFitness/commit/7a28337247fddc69b730bff597f3b9d7d6f4b87e))
+* **ci:** ensure newline when appending gradle caching property ([485c265](https://github.com/CodeWithCJ/SparkyFitness/commit/485c2658bd71b70284cd0cef8c94ede0a6c9c2b3))
+* ignore a barcode lookup result after the supplement switch is off, read the latest saved values, and list label rows whose unit cannot be read ([5036fb3](https://github.com/CodeWithCJ/SparkyFitness/commit/5036fb3c5c382c2df1023720f089e8712fc51923))
+* **integrations:** make sleep, custom category and check-in writes safe when they overlap ([e2b527c](https://github.com/CodeWithCJ/SparkyFitness/commit/e2b527c956f05ed06472b23b44303a5bd5f60120))
+* **mobile:** align placeholders and plural forms in German locale ([9c224b1](https://github.com/CodeWithCJ/SparkyFitness/commit/9c224b11c8d8d229b6273ccee8ab37fe7846f6c8))
+* **mobile:** align placeholders and plural forms in German locale ([313a0ae](https://github.com/CodeWithCJ/SparkyFitness/commit/313a0aeaad8583527b0928716ffc8d38e197abee))
+* **mobile:** drop the leftover shortcut file and name the lock-screen macros ([1e13282](https://github.com/CodeWithCJ/SparkyFitness/commit/1e13282c55f2eab98bb068ce90a72fd8d54aab05))
+* **mobile:** include the calorie count and macro names in the lock-screen labels ([01ab83d](https://github.com/CodeWithCJ/SparkyFitness/commit/01ab83d14632b50283abdb33aaf6f8cb3d8927d2))
+* **mobile:** name lock-screen macros for VoiceOver and migrate the shortcut keychain in the app ([3da0443](https://github.com/CodeWithCJ/SparkyFitness/commit/3da0443dea4e6daa89af74dc552066fbf67b3b78))
+* **mobile:** only ask to update a preset when its structure changed, and ask on the watch when Finish is tapped ([3b93a8a](https://github.com/CodeWithCJ/SparkyFitness/commit/3b93a8a477578c6236a812d611410de9277c8898))
+* **mobile:** only ask to update a preset when its structure changed, and ask on the watch when Finish is tapped ([eb6780c](https://github.com/CodeWithCJ/SparkyFitness/commit/eb6780c0f156f861416616d9c4810ff599bce097))
+* **workout-plans:** keep generated entries the user edited and skip days that already have one ([b2d0eb2](https://github.com/CodeWithCJ/SparkyFitness/commit/b2d0eb24238038d7b0784c13f58e0fd6d0042271))
+* **workout-plans:** keep workouts logged from a plan when it is edited or toggled ([f2c49f9](https://github.com/CodeWithCJ/SparkyFitness/commit/f2c49f98cd5aa8ce455aa251b65cdc973d0c6cd0))
+
+
+### Documentation
+
+* **workout-plans:** document the functions this fix touches ([ea39161](https://github.com/CodeWithCJ/SparkyFitness/commit/ea3916190260fd2a5f4f4ca3e50f76da3686416f))
+
 ## [1.8.0](https://github.com/CodeWithCJ/SparkyFitness/compare/v1.7.3...v1.8.0) (2026-10-08)
 
 
